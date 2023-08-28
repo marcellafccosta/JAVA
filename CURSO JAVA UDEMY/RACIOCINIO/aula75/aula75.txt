@@ -1,0 +1,27 @@
+Part I - Construtores
+
+operação especial da classe, que executa no momento da instanciação do objeto
+comando new
+
+usos comuns:
+- inciar valores dos atributos
+- permitir ou obrigar que o objeto receba dados/dependencias no momento de sua instanciação
+
+se um construtor customizador nao for especificado, a classe disponibiliza o construtor 
+padrao -> Product p = new Product();
+
+é possivel especificar mais de um construtor na mesma classe (sobrecarga)
+
+Part II - palavra this
+
+é uma referencia para o proprio objeto
+
+usos comuns:
+- diferenciar atributos de variaveis locais
+- passar o proprio obj como argumento na chamada de um metodo ou construtor
+
+Part III - sobrecarga
+
+é um recurso que uma classe possui de oferecer mais de uma operacao com o mesmo nome, porem
+com diferentes listas de parametros
+

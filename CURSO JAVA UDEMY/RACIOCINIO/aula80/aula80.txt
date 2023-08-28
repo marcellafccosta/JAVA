@@ -1,0 +1,13 @@
+Part I - modificadores de acesso
+
+PRIVATE: o membro so pode ser acessado na PROPRIA CLASSE
+
+(nada): o membro so pode ser acessado nas classes do MESMO PACOTE
+
+PROTECTED: o membro so pode ser acessado no MESMO PACOTE, bem 
+como em SUBCLASSES de pacotes diferentes
+
+PUBLIC: o membro é acessado por TODAS as classes, ao menos que 
+ele resida em um modulo diferente que nao exporte o pacotes
+onde ele esta
+

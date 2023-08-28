@@ -1,0 +1,32 @@
+Part I - relembrando
+
+uma classe possui membros, que possui atributos e metodos.
+ex: 
+
+classe: Product
+
+atributos: 
+- name (string)
+- price (double)
+- quantity (int)
+
+metodos:
++ TotalValueInStock() - double
++ AddProducts(quantity: int) - void
++ RemoveProducts(quantity: int) - void
+
+Part II - membros estáticos ou membros de classe
+!= de membros de instancia 
+
+são membros que fazem sentido independentemente de objetos. NAO precisam de 
+objetos para serem chamados. sao chamados a partir do PROPRIO NOME da classe
+vai dar o mesmo resultado independente de qualquer objeto.
+
+aplicacoes comuns: classes utilitarias (Math.sqrt) e declaracao de constantes 
+
+Part III - anotacoes do exemplo
+
+com o static, nao preciso instanciar o objeto
+pode chamar diretamente a classe quando for atribuir valor 
+
+

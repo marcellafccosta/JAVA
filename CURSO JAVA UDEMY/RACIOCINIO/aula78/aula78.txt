@@ -1,0 +1,16 @@
+Part I - encapsulamento
+
+é um principio que consiste em esconder detalhes de implementacao de uma classe,
+expondo apenas operacoes SEGURAS e que mantenham os obj em um estado consistente
+
+regra de ouro: o objeto deve sempre estar em um estado consistente, e a propria
+classe deve garantir isso
+
+analogia: aparelho eletronico - dentro tem varios circuitos, mas o usuario nem sempre
+pode mexer nesses circuitos. entao é escondido, deixando p fora so o que o 
+usuario pode fazer. 
+
+REGRA GERAL BASICA
+um objeto NAO deve expor nenhum atributo (modificador de acesso private)
+
+os atributos devem ser acessados por meio de metodos GET e SET (padrao javabeans)

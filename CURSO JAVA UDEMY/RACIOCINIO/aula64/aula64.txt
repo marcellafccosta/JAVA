@@ -1,0 +1,39 @@
+Part I - CLASSE - tipo estruturado que pode conter membros
+
+ - atributos (dados / campos)
+ tipo triangulo, atributo abc / tipo cliente, atributo nome, cpf, email
+
+ - metodos (funcoes / operacoes)
+
+ outros recursos:
+ - construtores
+ - sobrecarga
+ - heranca
+ - encapsulamento
+ - polimorfismo
+
+ EXEMPLOS:
+ - entidades: produto, cliente, triangulo
+ - servico: ProdutoService, ClienteService, EmailService, StorageService
+ - controladores: ProdutoController, ClienteController
+ - utilitarios: Calculadora, Compactador
+ - outros (views, repositorios, gerenciadores, etc..)
+
+ classe: é a definição do tipo - Triangle
+ objetos: são instancias da classe - trianguloX e trianguloY
+
+Part II - INSTANCIAÇÃO - alocacao dinamica de memoria
+
+ Quando faz a declaracao de variaveis (double areaX, areaY, p; Triangle x, y), elas sao criadas
+ em uma area da memoria chamada STACK, onde sao criadas as variaveis ESTATICAS, que sao declaradas
+ no programa.
+ 
+ Durante a execucao do programa, posso fazer uma alocacao dinamica de memoria, usando o comando new
+ no momento que faco (x = new Triangle), sera criado um objetivo do tipo triangle em outra area de memoria
+ chamada HEAP, onde sao criados objetivos DINAMICOS durante a execucao.
+
+Part III - DISCUSSAO
+quais sao os beneficios de se calcular a area de um triangulo por meio de um METODO dentro da CLASSE Triangle?
+- 1: reaproveitamento de codigo: eliminamos o codigo repetido no programa principal
+- 2: delegacao de responsabilidades: quem deve ser responsavel por saber o calculo da area é o proprio triangulo
+cada classe é responsavel por si mesma.
