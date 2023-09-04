@@ -1,0 +1,15 @@
+array é uma estrutura de dados:
+homogenea (dados do mesmo tipo)
+ordenada (elementos acessados por meio de posicoes)
+alocada de uma vez so, em um bloco contiguo de memoria
+
+- vantagens:
+acesso imediato aos elementos pela sua posicao
+
+- desvantagens:
+tamanho fixo
+dificuldade para se realizar inserções e deleções
+
+
+
+length - quantidade de elementos ex: vect.length
