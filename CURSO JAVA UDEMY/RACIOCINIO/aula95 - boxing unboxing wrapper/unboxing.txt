@@ -1,0 +1,7 @@
+é o processo contrario do boxing - é o processo de conversão de um objeto tipo referencia para 
+um objeto tipo valor compatível 
+
+int x  = 20
+Object obj = x;
+int y = (int) obj - vai criar uma caixinha y com o valor 20 no stack, 
+desencaixotando o valor

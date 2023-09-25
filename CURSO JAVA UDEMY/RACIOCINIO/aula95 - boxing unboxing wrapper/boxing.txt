@@ -1,0 +1,6 @@
+é o processo de conversão de um objeto tipo valor para um objeto
+tipo referencia compatível 
+
+> int x = 20 - tem uma caixinha x com o valor 20 dentro do stack da memoria
+> Object obj = x - o obj que esta no stack, esta apontando para uma caixinha 
+com o valor de 20 no heap da memoria

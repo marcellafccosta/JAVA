@@ -1,0 +1,2 @@
+tipo: List
+classes que implementam: ArrayList, LinkedList..
